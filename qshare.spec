@@ -7,7 +7,7 @@ Source0:	http://www.zuzuf.net/qshare/files/%{name}-%{version}-src.tar.gz
 Group:		File tools
 Summary:        Qt file share
 BuildRequires:  gcc-c++ libxml2-devel
-BuildRequires:  qt4-devel
+BuildRequires:  qt4-devel avahi-compat-libdns_sd-devel
 Requires:       avahi
 
 %description
