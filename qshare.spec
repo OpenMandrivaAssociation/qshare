@@ -7,7 +7,6 @@ Source0:	http://www.zuzuf.net/qshare/files/%{name}-%{version}-src.tar.gz
 Group:		File tools
 Summary:        Qt file share
 BuildRequires:  gcc-c++ libxml2-devel
-BuildRequires:  liblzo2-devel
 BuildRequires:  qt4-devel avahi-compat-libdns_sd-devel
 Requires:       avahi
 
@@ -34,3 +33,11 @@ computers of the network with very little network/CPU overload.
 %files 
 %doc AUTHORS README COPYING
 %{_bindir}/%{name}
+
+
+%changelog
+* Fri Jan 20 2012 Alexander Khrukin <akhrukin@mandriva.org> 2.1.2-1
++ Revision: 762906
+- BR:avahi-compat-libdns_sd-devel
+- imported package qshare
+
