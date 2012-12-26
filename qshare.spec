@@ -8,6 +8,7 @@ Group:		File tools
 Summary:        Qt file share
 BuildRequires:  gcc-c++ pkgconfig(libxml-2.0)
 BuildRequires:  qt4-devel avahi-compat-libdns_sd-devel
+BuildRequires:  cmake
 Requires:       avahi
 
 %description
