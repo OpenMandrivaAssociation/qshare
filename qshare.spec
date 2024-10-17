@@ -2,7 +2,7 @@ Name:           qshare
 Version:        2.1.5
 Release:        2
 License:        GPLv3
-Url:		http://www.zuzuf.net/qshare
+Url:		https://www.zuzuf.net/qshare
 Source0:	http://www.zuzuf.net/qshare/files/%{name}-%{version}-src.tar.bz2
 Group:		File tools
 Summary:        Qt file share
